@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TaoBaoAdressDialog</string>
+    <string name="select_address">请选择所在地区</string>
+    <string name="select_area">选择省份/地区</string>
+    <string name="cancel">取消</string>
+    <string name="select_city">请选择城市</string>
+    <string name="select_county">请选择县</string>
+    <string name="select_street">请选择街道</string>
+    <string name="city">选择城市</string>
+    <string name="county">选择区/县</string>
+    <string name="street">选择街道/镇</string>
+</resources>

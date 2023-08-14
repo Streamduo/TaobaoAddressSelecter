@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:id="@+id/line_all"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/te_letter"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="18dp"
+        android:gravity="center"
+        android:textColor="@color/color_333333"
+        android:textSize="14dp"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        tools:text="A" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="18dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_333333"
+        android:textSize="14dp"
+        tools:text="北京" />
+
+</LinearLayout>
